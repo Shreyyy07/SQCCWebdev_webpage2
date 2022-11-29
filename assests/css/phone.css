@@ -1,0 +1,46 @@
+/* /navigation bar  */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+ font-size:1rem ;
+ padding: 0 7px;
+ padding-bottom: 5px;
+
+}
+
+/* home section */
+#home{
+height: 462px;
+
+}
+#home::before{
+ height: 480px;    
+}
+#home p{
+    font-size: 13px;
+     padding: 6px 322px;
+
+}
+
+/* services section */
+#domains{
+ flex-wrap: wrap;
+}
+#domain.box{
+padding: 14px;
+margin: 2px 55px;
+}
+
+/* join us */
+#join-box form{
+    width: 90%;
+}
+
+/* footer */
+
+/* utility */
+.h-primary{
+    font-size: 16px;
+}
+
